@@ -1,0 +1,91 @@
+/*
+Theme Name:     Wagrage
+Description:    Wagenbrenner Brokerage theme; child of Wag theme
+Author:         Ben Irvin
+Template:       wag
+Version:        0.1.0
+*/
+
+@import url("../wag/style.css");
+
+.home .entry-content {
+	font-size: 1.5em;
+	line-height: 1.7em;
+	font-family:'Proxima N W01 Light';
+	margin: 0 15px 0 15px;
+}
+
+.affiliate-list .affiliate {
+	margin: 10px;
+	border: 1px solid #ccc;
+	width: 155px;
+	
+	float: left;
+	text-align: center;
+	padding: 10px;
+	
+	
+	-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+.page-id-14 .white-bg-rep {
+	padding-bottom: 25px;
+	*padding-bottom: 35px; /* IE 7 sucks */
+	
+}
+
+
+/* Styles for press page */
+
+.press-list .press-title {
+	font-family:'Proxima N W01 Bold';
+	font-size: 1.1em;
+}
+
+.press-list .press-source {
+	font-family:'Proxima N W01 Bold';
+	display: inline;
+}
+
+.press-list .press-date {
+	display: inline;
+	margin-left: 10px;
+}
+
+.press-list .press-author {
+	font-style: italic;
+}
+
+.press-list li {
+	padding-bottom: 40px;
+}
+#ie7 .slider-text{
+	left:-20px;
+}
+
+
+#ie8 .sub-pages-menu a:hover{
+	color:#fff;
+	background-color: #64adf4;
+	background-image: none;
+}
+
+#ie8 .sub-pages-menu .current_page_item a{
+	color:#fff;
+	background-color: #64adf4;
+	background-image: none;
+}
+
+#ie7 .sub-pages-menu a:hover{
+	color:#fff;
+	background-color: #64adf4;
+	background-image: none;
+}
+
+#ie7 .sub-pages-menu .current_page_item a{
+	color:#fff;
+	background-color: #64adf4;
+	background-image: none;
+}
